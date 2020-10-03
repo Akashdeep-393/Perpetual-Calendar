@@ -1,0 +1,351 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <div class="alert alert-primary" role="alert">
+        {{ month }} {{ year }}
+    </div>
+    <br>
+    <table class="table table-striped">
+        <tr>
+            <th scope="col">
+                Monday
+            </th>
+            <th scope="col">
+                Tuesday
+            </th>
+            <th scope="col">
+                Wednesday
+            </th>
+            <th scope="col">
+                Thursday
+            </th>
+            <th scope="col">
+                Friday
+            </th>
+            <th scope="col">
+                Saturday
+            </th>
+            <th scope="col">
+                Sunday
+            </th>
+        </tr>
+        {% set count = 1 %}
+        {% if beginning_day == 0 %}
+        <tr>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 1 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}           
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 2 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 3 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+               {% set count = count + 1 %}
+               {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 4 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 5 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if beginning_day == 6 %}
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                {{ count }}
+            </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+         <tr>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+         <tr>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+            <td>
+                {% set count = count + 1 %}
+                {{ count }}
+            </td>
+        </tr>
+        {% if count+7 > days %}
+        <tr>
+        {% set count = count + 1 %}
+        {% for x in range(count, days+1) %}
+            <td>
+                {{ x }}
+            </td>
+        {% endfor %}
+        </tr>
+        {% else %}
+        <tr>
+        {% set count = count + 1 %}
+        {% for x in range(count, count+7) %}
+            <td>
+                {{ x }}
+            </td>
+        {% endfor%}
+        </tr>
+        <tr>
+        {% set count = count + 7 %}
+        {% for x in range(count, days+1) %}
+            <td>
+                {{ x }}
+            </td>
+        {% endfor%}
+        </tr>
+        {% endif %}
+    </table>
+    <div>
+        <table class="table table-striped">
+        <tr>
+            <th scope="col">
+                Events
+            </th>
+            <th scope="col">
+                Date
+            </th>
+        </tr>
+        {% for x in events %}
+        <tr>
+            <td>
+                {{ x['Events'] }}
+            </td>
+            <td>
+                {{ x['Date'] }}
+            </td>
+        </tr>
+        {% endfor %}
+    </div>
+{% endblock %}

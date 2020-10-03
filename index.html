@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="/" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="month" placeholder="Enter month from 1 to 12" type="text">
+        </div>
+        <div class= "form-group">
+            <input autocomplete="off" autofocus class="form-control" name="year" placeholder="Enter year from 2001 to 2099" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Show calendar</button>
+    </form>
+{% endblock %}
