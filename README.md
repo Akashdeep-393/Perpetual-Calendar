@@ -1,6 +1,6 @@
 My Project is a Perpetual Calendar website for the years 2001-2099.
 
-A Perpetual Calendar is calendar that is valid for many years and is usually used to look up the day of the week for any given date. My calendar website displays a perpetual calendar for the 21st century and includes the days of the week for each date and the dates of new and full moons as well. I have also included 5 festivals - Christmas, New Year, Chinese New Year, Diwali and Eid-al-Fitr. The last three are lunar festivals which require complex algorithms to compute.
+A Perpetual Calendar is a calendar that is valid for many years and is usually used to look up the day of the week for any given date. My calendar website displays a perpetual calendar for the 21st century and includes the days of the week for each date and the dates of new and full moons as well. I have also included 5 festivals - Christmas, New Year, Chinese New Year, Diwali and Eid-al-Fitr. The last three are lunar festivals which require complex algorithms to compute.
 
 My website uses some of the documentation from the CS50 distribution code for Finance. However, I have added my own algorithms to add and delete events to my calendar as well as delete the users account. The user's account and tale of events is maintained using a SQL database and manipulated using Flask. Jinja, HTML and CSS have been used to create the webpage templates.
 
